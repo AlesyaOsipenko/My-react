@@ -35,11 +35,11 @@
 .time {
     color: #878787;
 }
-.like-icon,
-.dislike-icon {
+.likeIcon,
+.dislikeIcon {
     margin-right: 4px;
 }
-.time-icon {
+.timeIcon {
     margin-right: 7px;
 }
 .wrapper {
