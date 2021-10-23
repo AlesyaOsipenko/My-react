@@ -6,4 +6,5 @@ function Label(props) {
         <span style={props.style} className={s.label} >{props.label}</span>
     );
     }
+    
     export default Label;

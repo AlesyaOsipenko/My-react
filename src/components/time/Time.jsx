@@ -6,7 +6,7 @@ function Time() {
     return (
     <div className={s.time} >
         <img className={s.timeIcon} src={clock} alt=""/>
-        <span className={s.timeText} >2.00 pm</span>
+        <span className={s.timeText}>2.00pm</span>
     </div>
     );
   }

@@ -1,10 +1,9 @@
 import s from './Headline.module.css';
 import likeIcon from "./../../assets/images/like.svg";
 import dislikeIcon from "./../../assets/images/dislike.svg";
-import Time from '../time/Time';
 import Label from '../label/Label';
 import ArticleHeader from '../article header/ArticleHeader';
-
+import Time from '../time/Time';
 
 
 function Headline(props) {
