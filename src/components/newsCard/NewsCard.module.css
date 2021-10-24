@@ -1,0 +1,15 @@
+.newsPic {
+    background-color: #C4C4C4;
+    border-radius: 15px;
+}
+
+.newsTitle {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 224px;
+}
+
+.newsInner {
+    display: flex;
+}

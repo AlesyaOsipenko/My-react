@@ -33,3 +33,9 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+.news-wrapper {
+    display: flex;
+    justify-content: space-between ;
+}
