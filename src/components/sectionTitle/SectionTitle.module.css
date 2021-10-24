@@ -1,0 +1,38 @@
+.sectionTitle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    align-items: center;
+    height: 32px;
+}
+
+.blockTitle {
+    margin-bottom: 32px;
+}
+
+.btn {
+    color: #503E9D;
+    background-color: inherit;
+    font-family: 'Open Sans';
+    width: 70px;
+    height: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px 8px;
+    line-height: 24px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+
+.btn::after {
+    content: "";
+    position: absolute;
+    background-image: url('./../../assets/images/arrowRight.jpg');
+    background-repeat: no-repeat;
+    top: 7px;
+    right: -8px;
+    width: 10px;
+    height: 18px;
+}

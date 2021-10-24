@@ -9,7 +9,7 @@ function NewsCard(props) {
         <div className={s.newsInner}>
             <h4 className={s.newsTitle}>{props.title}</h4>
                 <div className={s.newsBox}>
-                    <Label/>
+                    <Label label={props.label}/>
                     <Time/> 
                 </div>
             

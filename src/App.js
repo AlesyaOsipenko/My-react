@@ -18,6 +18,7 @@ import pic2 from "./assets/images/pic2.jpg";
 import pic3 from "./assets/images/pic3.jpg";
 import ChanelCard from './components/chanelCard/ChanelCard';
 import NewsCard from './components/newsCard/NewsCard';
+import SectionHeader from './components/sectionTitle/SectionTitle';
 
 
 function App() {
@@ -28,7 +29,8 @@ function App() {
       <aside className="sidebar">aside</aside>
       <main className="main">
           <section className="channels">
-          <h2 className="title">Explore Channels</h2>
+          <SectionHeader title="Explore Channels"/>
+          
             <div className="channel-categories">
               <ChanelCard label="FOX NEWS" logo={logo1} />
               <ChanelCard label="CW6 NEWS" logo={logo2} />
@@ -41,7 +43,8 @@ function App() {
 
 
           <section className="headlines">
-      <h2 className="block-title">Today's Headlines</h2>
+          <SectionHeader title="Today's Headlines"/>
+      
       <div className="block-content">
       <Headline title="Hate speech vs free speech" thumbnail={img1} label="BBC NEWS" />
       <Headline title="Ontario Liberal leadership" thumbnail={img2} label="BBC NEWS" />
@@ -54,11 +57,13 @@ function App() {
 
 
           <section className="news">
-            <h2 className="news-title">Featured News</h2>
+
+          <SectionHeader title="Featured News"/>
+            
             <div className="news-wrapper">
-            <NewsCard pic={pic1} title="Travellers to pay more than $2K, Trudeau says"/>
-            <NewsCard pic={pic2} title="Myanmar’s military seizes control of country ov er..."/>
-            <NewsCard pic={pic3} title="Pressure builds for Biden to cancel other pipeline..."/>
+            <NewsCard pic={pic1} title="Travellers to pay more than $2K, Trudeau says" label="FOX NEWS"/>
+            <NewsCard pic={pic2} title="Myanmar’s military seizes control of country ov er..." label="CNN NEWS"/>
+            <NewsCard pic={pic3} title="Pressure builds for Biden to cancel other pipeline..." label="BBC NEWS"/>
             </div>
           </section>
 
