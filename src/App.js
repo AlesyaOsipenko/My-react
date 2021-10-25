@@ -16,16 +16,31 @@ import logo6 from "./assets/images/logo6.jpg";
 import pic1 from "./assets/images/pic1.jpg";
 import pic2 from "./assets/images/pic2.jpg";
 import pic3 from "./assets/images/pic3.jpg";
+import thumbnail1 from "./assets/images/Icon.svg";
+import thumbnail2 from "./assets/images/pieChart.svg";
+import thumbnail3 from "./assets/images/calendar.svg";
 import ChanelCard from './components/chanelCard/ChanelCard';
 import NewsCard from './components/newsCard/NewsCard';
 import SectionHeader from './components/sectionTitle/SectionTitle';
+import Choice from './components/choice/Choice';
 
 
 function App() {
   return (
     <div className="App">
 
-      <header className="header">Header</header>
+      <header className="header">
+        <div className="navigation">
+
+            <div className="navigation-left">
+              <Choice title="San Francisco, California" img={thumbnail1}/>
+              <Choice title="Analysis" img={thumbnail2}/>
+              <Choice title="Monthly" img={thumbnail3}/>
+            </div>
+
+        </div>
+
+      </header>
       <aside className="sidebar">aside</aside>
       <main className="main">
           <section className="channels">

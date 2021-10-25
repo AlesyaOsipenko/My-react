@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+    align-items:center;
+}
+
+.span {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+color: #182135;
+margin: 0px 7px 0px 15px;
+
+}
+
+.arrows {
+    cursor: pointer;
+}

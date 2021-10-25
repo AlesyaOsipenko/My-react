@@ -11,6 +11,7 @@
 
 .header {
     grid-area: h;
+    padding-left: 32px;
 }
 
 .sidebar {
@@ -41,4 +42,14 @@
 .news-wrapper {
     display: flex;
     justify-content: space-between ;
+}
+
+.navigation {
+    padding-top: 30px;
+}
+
+.navigation-left {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
 }
