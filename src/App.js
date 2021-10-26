@@ -16,9 +16,11 @@ import logo6 from "./assets/images/logo6.jpg";
 import pic1 from "./assets/images/pic1.jpg";
 import pic2 from "./assets/images/pic2.jpg";
 import pic3 from "./assets/images/pic3.jpg";
+import image from "./assets/images/header-button.svg";
 import thumbnail1 from "./assets/images/Icon.svg";
 import thumbnail2 from "./assets/images/pieChart.svg";
 import thumbnail3 from "./assets/images/calendar.svg";
+import client from "./assets/images/client.png";
 import ChanelCard from './components/chanelCard/ChanelCard';
 import NewsCard from './components/newsCard/NewsCard';
 import SectionHeader from './components/sectionTitle/SectionTitle';
@@ -36,6 +38,17 @@ function App() {
               <Choice title="San Francisco, California" img={thumbnail1}/>
               <Choice title="Analysis" img={thumbnail2}/>
               <Choice title="Monthly" img={thumbnail3}/>
+            </div>
+
+            <div className="navigation-right">
+
+                <div> 
+                  <form className="header-form">
+                  <input className="header-input" type="search" name="googlesearch" placeholder="Search for anything…"/>
+                  </form>
+                </div>
+                <input className="header-btn" type="image" src={image} alt="header-button»"/>
+                <img className="client-img" src={client} alt="client-img"/>
             </div>
 
         </div>
