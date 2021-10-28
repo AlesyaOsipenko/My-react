@@ -1,0 +1,32 @@
+.navigationWrapper {
+    width: 272px;
+    height: 56px;
+    background-color: transparent;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+}
+
+.navigationWrapper:hover {
+    background-color: #a097ca;
+}
+
+.navigationWrapper:hover .navigationTitle {
+    color: #503E9D;
+}
+
+.navigationTitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #878787;
+    margin-left: 24px;
+}
+
+.NavigationItem {
+    display: flex;
+    align-items: center;
+}

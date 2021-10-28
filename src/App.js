@@ -21,10 +21,12 @@ import thumbnail1 from "./assets/images/Icon.svg";
 import thumbnail2 from "./assets/images/pieChart.svg";
 import thumbnail3 from "./assets/images/calendar.svg";
 import client from "./assets/images/client.png";
+import logo from "./assets/images/logo.svg";
 import ChanelCard from './components/chanelCard/ChanelCard';
 import NewsCard from './components/newsCard/NewsCard';
 import SectionHeader from './components/sectionTitle/SectionTitle';
 import Choice from './components/choice/Choice';
+import Navigation from './components/navigation/Navigation';
 
 
 function App() {
@@ -54,7 +56,53 @@ function App() {
         </div>
 
       </header>
-      <aside className="sidebar">aside</aside>
+
+      <aside className="sidebar">
+        
+
+        <div className="sidebar-top">
+
+          <div className="logo-wrapper">
+            <img className="logo" src={logo} alt="logo-img"/>
+          </div>
+
+              <div className="navigation-wrapper">
+
+                <ul className="navigationList">
+
+                  <li className="navigationItem">
+                  <button className="navigationLink ">
+                    <Navigation title="Home"/>
+                  </button>
+                    
+                  </li>
+
+                    
+                    <Navigation title="Explore"/>
+                    <Navigation title="Saved"/>
+                    <Navigation title="Subscriptions"/>
+                    <Navigation title="Messages"/>
+                    <Navigation title="Settings"/>
+                    <Navigation title="Logout"/>
+
+
+                </ul>
+
+            
+
+              </div>
+
+      
+        </div>
+      
+      
+      
+      
+      
+      </aside>
+
+
+
       <main className="main">
           <section className="channels">
           <SectionHeader title="Explore Channels"/>

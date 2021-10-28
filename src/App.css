@@ -17,6 +17,9 @@
 .sidebar {
     grid-area: s;
     background-color: #F8F8F8;
+    width: 304px;
+    border-radius: 0px 24px 24px 0px;
+   
 }
 
 .main {
@@ -28,6 +31,10 @@
     display: grid;
     grid-template-columns: repeat(3, 336px);
     gap: 32px;
+}
+
+.channels {
+    margin-bottom: 40px;
 }
 
 .channel-categories {
@@ -108,4 +115,31 @@
 .client-img {
     width: 48px;
     height: 48px;
+}
+
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-top {
+    display: flex;
+    flex-direction: column;
+    padding: 33px 16px 32px;
+}
+
+.navigation-wrapper {
+    width: 272px;
+    height: 472px;
+}
+
+.navigationList {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.navigationLink {
+    text-decoration: none;
 }
