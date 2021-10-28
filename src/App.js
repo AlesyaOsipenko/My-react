@@ -27,6 +27,13 @@ import NewsCard from './components/newsCard/NewsCard';
 import SectionHeader from './components/sectionTitle/SectionTitle';
 import Choice from './components/choice/Choice';
 import Navigation from './components/navigation/Navigation';
+import icon1 from './assets/images/sidebarIcons/icon1.svg';
+import icon2 from './assets/images/sidebarIcons/icon2.svg';
+import icon3 from './assets/images/sidebarIcons/icon3.svg';
+import icon4 from './assets/images/sidebarIcons/icon4.svg';
+import icon5 from './assets/images/sidebarIcons/icon5.svg';
+import icon6 from './assets/images/sidebarIcons/icon6.svg';
+import icon7 from './assets/images/sidebarIcons/icon7.svg';
 
 
 function App() {
@@ -66,31 +73,31 @@ function App() {
             <img className="logo" src={logo} alt="logo-img"/>
           </div>
 
-              <div className="navigation-wrapper">
+              
 
                 <ul className="navigationList">
 
                   <li className="navigationItem">
-                  <button className="navigationLink ">
-                    <Navigation title="Home"/>
-                  </button>
-                    
+                
+                    <Navigation title="Home" icon={icon1}/>
+                  
+      
                   </li>
 
                     
-                    <Navigation title="Explore"/>
-                    <Navigation title="Saved"/>
-                    <Navigation title="Subscriptions"/>
-                    <Navigation title="Messages"/>
-                    <Navigation title="Settings"/>
-                    <Navigation title="Logout"/>
+                    <Navigation title="Explore" icon={icon2}/>
+                    <Navigation title="Saved" icon={icon3}/>
+                    <Navigation title="Subscriptions" icon={icon4}/>
+                    <Navigation title="Messages" icon={icon5}/>
+                    <Navigation title="Settings" icon={icon6}/>
+                    <Navigation title="Logout" icon={icon7}/>
 
 
                 </ul>
 
             
 
-              </div>
+              
 
       
         </div>
