@@ -136,6 +136,7 @@
     height: 472px;
     margin: 0;
     padding-left: 15px;
+    border-bottom: 2px solid #E8E8E8;
 }
 
 .navigationList:last-child {
@@ -144,4 +145,76 @@
 
 .navigationLink {
     text-decoration: none;
+}
+
+.asideCard {
+    width: 240px;
+    height: 324px;
+    border-radius: 20px;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 32px 96px -8px rgba(0, 0, 0, 0.06);
+    margin: 24px 32px 0 32px;
+
+}
+
+.cardWrapper {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+
+.cardTitle {
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #182135;
+max-width: 176px;
+margin-bottom: 8px;
+}
+
+.cardText {
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+color: #626264;
+max-width: 176px;
+margin-top: 0;
+margin-bottom: 32px;
+}
+
+.cardButton {
+position: relative;
+background: #503E9D;
+border-radius: 10px;
+color: #FFFFFF;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 100%;
+width:176px;
+height :48px;
+}
+
+.cardButton::after {
+    content: "";
+    display: block;
+    background-image: url('./assets/images/cardArrow.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 17px;
+    right: 3px;
+    width: 16px;
+    height: 13px;
 }

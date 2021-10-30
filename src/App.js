@@ -34,6 +34,7 @@ import icon4 from './assets/images/sidebarIcons/icon4.svg';
 import icon5 from './assets/images/sidebarIcons/icon5.svg';
 import icon6 from './assets/images/sidebarIcons/icon6.svg';
 import icon7 from './assets/images/sidebarIcons/icon7.svg';
+import icon8 from './assets/images/cardIcon.svg';
 
 
 function App() {
@@ -109,14 +110,34 @@ function App() {
 
                 </ul>
 
-            
-
-              
-
-      
         </div>
       
-      
+        <div className="sidebar-bottom">
+
+          <div className="asideCard">
+
+          <div className="cardWrapper">
+            <img className="cardImg" src={icon8} alt="card-icon"/>
+
+
+            
+
+              <h4 className="cardTitle">Subscribe to our new plan <span className="cardSpan">$25</span></h4>
+              <p className="cardText">It is a limited time offer that will expire soon.</p>
+              <button className="cardButton">Subscribe now</button>
+
+          
+
+
+          </div>
+
+          
+            
+
+
+          </div>
+
+        </div>
       
       
       
