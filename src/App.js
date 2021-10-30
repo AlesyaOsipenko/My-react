@@ -78,19 +78,33 @@ function App() {
                 <ul className="navigationList">
 
                   <li className="navigationItem">
-                
                     <Navigation title="Home" icon={icon1}/>
-                  
-      
                   </li>
 
-                    
+                    <li>
                     <Navigation title="Explore" icon={icon2}/>
+                    </li>
+                    
+                    <li>
                     <Navigation title="Saved" icon={icon3}/>
+                    </li>
+                    
+                    <li>
                     <Navigation title="Subscriptions" icon={icon4}/>
+                    </li>
+
+                    <li>
                     <Navigation title="Messages" icon={icon5}/>
+                    </li>
+                    
+                    <li>
                     <Navigation title="Settings" icon={icon6}/>
+                    </li>
+                    
+                    <li>
                     <Navigation title="Logout" icon={icon7}/>
+                    </li>
+                    
 
 
                 </ul>
