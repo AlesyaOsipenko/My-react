@@ -74,49 +74,50 @@ function App() {
             <img className="logo" src={logo} alt="logo-img"/>
           </div>
 
+          <div className="navigationBox">
+          <ul className="navigationList">
+
+<li className="navigationLi">
+  <Navigation title="Home" icon={icon1}/>
+</li>
+
+  <li className="navigationLi">
+  <Navigation title="Explore" icon={icon2}/>
+  </li>
+  
+  <li className="navigationLi">
+  <Navigation title="Saved" icon={icon3}/>
+  </li>
+  
+  <li className="navigationLi">
+  <Navigation title="Subscriptions" icon={icon4}/>
+  </li>
+
+  <li className="navigationLi">
+  <Navigation title="Messages" icon={icon5}/>
+  </li>
+  
+  <li className="navigationLi">
+  <Navigation title="Settings" icon={icon6}/>
+  </li>
+
+
+  </ul>
+
+  <div className="navigationLogout">
+  <Navigation title="Logout" icon={icon7}/>
+    
+  </div>
+  
+</div>
               
-
-                <ul className="navigationList">
-
-                  <li className="navigationItem">
-                    <Navigation title="Home" icon={icon1}/>
-                  </li>
-
-                    <li>
-                    <Navigation title="Explore" icon={icon2}/>
-                    </li>
-                    
-                    <li>
-                    <Navigation title="Saved" icon={icon3}/>
-                    </li>
-                    
-                    <li>
-                    <Navigation title="Subscriptions" icon={icon4}/>
-                    </li>
-
-                    <li>
-                    <Navigation title="Messages" icon={icon5}/>
-                    </li>
-                    
-                    <li>
-                    <Navigation title="Settings" icon={icon6}/>
-                    </li>
-                    
-                    <li>
-                    <Navigation title="Logout" icon={icon7}/>
-                    </li>
-                    
-
-
-                </ul>
-
-        </div>
+</div>
       
         <div className="sidebar-bottom">
 
           <div className="asideCard">
 
-          <div className="cardWrapper">
+          
             <img className="cardImg" src={icon8} alt="card-icon"/>
 
 
@@ -129,7 +130,7 @@ function App() {
           
 
 
-          </div>
+          
 
           
             
