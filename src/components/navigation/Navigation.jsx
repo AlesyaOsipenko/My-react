@@ -8,7 +8,7 @@ function Navigation(props) {
 
             <div className={s.navigationItem}>
 
-                <img className="navigationImg" src={props.icon} alt="navigation-img"/>
+                <img className={s.navigationImg} src={props.icon} alt="navigation-img"/>
                 <h3 className={s.navigationTitle}>{props.title}</h3>
 
             </div>

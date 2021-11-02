@@ -8,11 +8,10 @@
     
 }
 
-.navigationWrapper:hover {
-    background-color: #a097ca;
-} 
 
-
+.navigationWrapper:hover .navigationImg {
+    fill:#503E9D;
+}
 
 .navigationTitle {
     font-family: 'Open Sans';
@@ -24,7 +23,19 @@
     margin-left: 24px;
 }
 
+.navigationWrapper:hover {
+    background-color: #a097ca;
+} 
+
+.navigationWrapper:hover .navigationTitle {
+    color: #503E9D;
+    font-weight: 700;
+}
+
+
+
 .navigationItem {
     display: flex;
     align-items: center;
+    padding-left: 15px;
 }

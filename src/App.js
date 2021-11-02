@@ -74,8 +74,9 @@ function App() {
             <img className="logo" src={logo} alt="logo-img"/>
           </div>
 
-          <div className="navigationBox">
-          <ul className="navigationList">
+          <div className="navigationShell">
+            
+            <ul className="navigationList">
 
 <li className="navigationLi">
   <Navigation title="Home" icon={icon1}/>
@@ -101,13 +102,13 @@ function App() {
   <Navigation title="Settings" icon={icon6}/>
   </li>
 
+  <div className="navigationLogout">
+  <Navigation title="Logout" icon={icon7}/>
+  </div>
 
   </ul>
 
-  <div className="navigationLogout">
-  <Navigation title="Logout" icon={icon7}/>
-    
-  </div>
+  
   
 </div>
               
