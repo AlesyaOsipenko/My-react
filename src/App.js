@@ -9,10 +9,10 @@ import img5 from "./assets/images/image5.jpg";
 import img6 from "./assets/images/image6.jpg";
 import logo1 from "./assets/images/logo1.png";
 import logo2 from "./assets/images/logo2.jpg";
-import logo3 from "./assets/images/logo3.jpg";
-import logo4 from "./assets/images/logo4.jpg";
+import logo3 from "./assets/images/logo3.png";
+import logo4 from "./assets/images/logo4.png";
 import logo5 from "./assets/images/logo5.jpg";
-import logo6 from "./assets/images/logo6.jpg";
+import logo6 from "./assets/images/logo6.png";
 import pic1 from "./assets/images/pic1.jpg";
 import pic2 from "./assets/images/pic2.jpg";
 import pic3 from "./assets/images/pic3.jpg";
@@ -27,13 +27,13 @@ import NewsCard from './components/newsCard/NewsCard';
 import SectionHeader from './components/sectionTitle/SectionTitle';
 import Choice from './components/choice/Choice';
 import Navigation from './components/navigation/Navigation';
-import icon1 from './assets/images/sidebarIcons/icon1.svg';
-import icon2 from './assets/images/sidebarIcons/icon2.svg';
-import icon3 from './assets/images/sidebarIcons/icon3.svg';
-import icon4 from './assets/images/sidebarIcons/icon4.svg';
-import icon5 from './assets/images/sidebarIcons/icon5.svg';
-import icon6 from './assets/images/sidebarIcons/icon6.svg';
-import icon7 from './assets/images/sidebarIcons/icon7.svg';
+// import asideIcon1 from './assets/images/sidebarIcons/icon1.svg';
+// import asideIcon2 from './assets/images/sidebarIcons/icon2.svg';
+// import asideIcon3 from './assets/images/sidebarIcons/icon3.svg';
+// import asideIcon4 from './assets/images/sidebarIcons/icon4.svg';
+// import asideIcon5 from './assets/images/sidebarIcons/icon5.svg';
+// import asideIcon6 from './assets/images/sidebarIcons/icon6.svg';
+// import asideIcon7 from './assets/images/sidebarIcons/icon7.svg';
 import icon8 from './assets/images/cardIcon.svg';
 
 
@@ -78,32 +78,61 @@ function App() {
             
             <ul className="navigationList">
 
-<li className="navigationLi">
-  <Navigation title="Home" icon={icon1}/>
-</li>
+ <li className="navigationLi">
+                 <Navigation title="Home" 
+                 name="icon1" 
+                  viewbox='0 0 24 23' 
+                  width='24' 
+                  height='23'/>
+                 
+            </li>
 
   <li className="navigationLi">
-  <Navigation title="Explore" icon={icon2}/>
+  <Navigation title="Explore" 
+  name="icon2" 
+                              viewbox='0 0 24 24' 
+                              width='24' 
+                              height='24'/>
   </li>
   
   <li className="navigationLi">
-  <Navigation title="Saved" icon={icon3}/>
+  <Navigation title="Saved" 
+  name="icon3" 
+                              viewbox='0 0 24 24' 
+                              width='20' 
+                              height='24'/>
   </li>
   
   <li className="navigationLi">
-  <Navigation title="Subscriptions" icon={icon4}/>
+  <Navigation title="Subscriptions" 
+  name="icon4" 
+                              viewbox='0 0 24 24' 
+                              width='24' 
+                              height='24'/>
   </li>
 
   <li className="navigationLi">
-  <Navigation title="Messages" icon={icon5}/>
+  <Navigation title="Messages"
+  name="icon5" 
+                              viewBox="0 0 24 19"
+                              width='24' 
+                              height='24' />
   </li>
   
   <li className="navigationLi">
-  <Navigation title="Settings" icon={icon6}/>
+  <Navigation title="Settings" 
+  name="icon6" 
+                              viewbox='0 0 24 24' 
+                              width='24' 
+                              height='24'/>
   </li>
 
   <div className="navigationLogout">
-  <Navigation title="Logout" icon={icon7}/>
+  <Navigation title="Logout"
+   name="icon7" 
+                          viewbox='0 0 24 24' 
+                          width='24' 
+                          height='24' />
   </div>
 
   </ul>
@@ -120,23 +149,9 @@ function App() {
 
           
             <img className="cardImg" src={icon8} alt="card-icon"/>
-
-
-            
-
               <h4 className="cardTitle">Subscribe to our new plan <span className="cardSpan">$25</span></h4>
               <p className="cardText">It is a limited time offer that will expire soon.</p>
               <button className="cardButton">Subscribe now</button>
-
-          
-
-
-          
-
-          
-            
-
-
           </div>
 
         </div>

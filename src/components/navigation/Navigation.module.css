@@ -5,6 +5,7 @@
     border-radius: 12px;
     display: flex;
     align-items: center;
+    width: 100%;
     
 }
 
@@ -32,6 +33,13 @@
     font-weight: 700;
 }
 
+.iconSvg {
+    fill: #878787;
+}
+
+.navigationWrapper:hover .iconSvg {
+    fill: #503E9D;
+}
 
 
 .navigationItem {

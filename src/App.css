@@ -125,6 +125,7 @@
     display: flex;
     flex-direction: column;
     padding: 33px 15px 32px;
+    border-bottom: 2px solid #E8E8E8;
 }
 
 .navigationShell{
@@ -168,7 +169,6 @@
     align-items:center;
     justify-content: center;
     flex-direction: column;
-    padding-top: 32px;
     width: 240px;
     height: 324px;
     border-radius: 20px;
@@ -185,7 +185,7 @@
     border-radius: 20px;
     box-shadow: 0px 24px 64px -4px rgba(0, 0, 0, 0.04);
     background: #ffffff;
-    top: 45px;
+    top: 12px;
     left: 50px;
     width: 208px;
     height: 324px;
@@ -200,8 +200,8 @@
     box-shadow: 0px 24px 64px -4px rgba(0, 0, 0, 0.04);
     background: #FFFFFF;
     border-radius: 20px;
-    top: 59px;
-    left: 65px;
+    top: 26px;
+    left: 64px;
     width: 176px;
     height: 324px;
     z-index: -2;
@@ -217,7 +217,7 @@ font-size: 16px;
 line-height: 24px;
 text-align: center;
 color: #182135;
-max-width: 176px;
+max-width: 168px;
 margin-bottom: 8px;
 }
 
