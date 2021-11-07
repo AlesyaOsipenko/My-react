@@ -46,4 +46,29 @@
     display: flex;
     align-items: center;
     padding-left: 15px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.counter {
+    width: 24px;
+    height: 24px;
+    background: #503E9D;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    align-items: center;
+    justify-content: center;
+    color: #F7FAFC;
+    margin-right: 16px;
+    display: none;
+    border-radius:50%;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

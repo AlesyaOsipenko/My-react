@@ -80,65 +80,75 @@ function App() {
 
  <li className="navigationLi">
                  <Navigation title="Home" 
-                 name="icon1" 
-                  viewbox='0 0 24 23' 
-                  width='24' 
-                  height='23'/>
+              name="icon1" 
+              viewbox='0 0 24 23' 
+              width='24' 
+              height='23'/>
                  
             </li>
 
   <li className="navigationLi">
   <Navigation title="Explore" 
   name="icon2" 
-                              viewbox='0 0 24 24' 
-                              width='24' 
-                              height='24'/>
+            viewbox='0 0 24 24' 
+            width='24' 
+            height='24'/>
   </li>
   
   <li className="navigationLi">
-  <Navigation title="Saved" 
-  name="icon3" 
-                              viewbox='0 0 24 24' 
-                              width='20' 
-                              height='24'/>
+    <a className="navigationLink" href="/">
+    <Navigation title="Saved" 
+    name="icon3" 
+                viewbox='0 0 24 24' 
+                width='20' 
+                height='24'/>
+      </a>
   </li>
   
   <li className="navigationLi">
-  <Navigation title="Subscriptions" 
-  name="icon4" 
-                              viewbox='0 0 24 24' 
-                              width='24' 
-                              height='24'/>
+    <a className="navigationLink" href="/">
+    <Navigation title="Subscriptions" 
+    name="icon4" 
+              viewbox='0 0 24 24' 
+              width='24' 
+              height='24'/>
+    </a>
   </li>
 
   <li className="navigationLi">
+    <a className="navigationLink" href="/">
   <Navigation title="Messages"
   name="icon5" 
-                              viewBox="0 0 24 19"
-                              width='24' 
-                              height='24' />
+            viewBox="0 0 24 19"
+            width='24' 
+            height='24'
+            counter='2'
+            style={{display:"flex"}}/>
+    </a>
   </li>
   
   <li className="navigationLi">
+    <a className="navigationLink" href="/">
   <Navigation title="Settings" 
   name="icon6" 
-                              viewbox='0 0 24 24' 
-                              width='24' 
-                              height='24'/>
+            viewbox='0 0 24 24' 
+            width='24' 
+            height='24'/>
+    </a>
   </li>
 
   <div className="navigationLogout">
+  <a className="navigationLink" href="/">
   <Navigation title="Logout"
-   name="icon7" 
-                          viewbox='0 0 24 24' 
-                          width='24' 
-                          height='24' />
+        name="icon7" 
+        viewbox='0 0 24 24' 
+        width='24' 
+        height='24' />
+    </a>
   </div>
 
   </ul>
 
-  
-  
 </div>
               
 </div>
